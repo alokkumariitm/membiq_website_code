@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membiq – Smart Library Management Software</title>
+    <meta name="description" content="Manage library members, seat availability, membership renewals and shifts with Membiq Library Management Software.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <!-- Top Announcement Bar -->
+    <div class="top-bar">
+        <span class="ping-dot"></span>
+        <span>Membiq v1.0 in Under Development</span>
+        <a href="#download">Download APK &rarr;</a>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand-logo">
+                <img src="assets/logo.png" alt="Membiq Logo">
+            </a>
+
+            <nav class="nav-links" id="nav-links">
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#why-membiq">Why Membiq</a>
+                <a href="#app-view">App View</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="nav-action">
+                <a href="#download" class="btn-primary">Download App</a>
+            </div>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="badge"><i data-lucide="sparkles"></i> Under Development🧑‍💻</span>
+                    <h1>Manage Your Library. <br><span id="word-rotator">Simplify Everything.</span></h1>
+                    <p>Membiq makes library management effortless. Manage members, track membership expiry, organize seats and shifts, and keep your entire library running smoothly from one platform.</p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#download" class="btn-primary btn-large"><i data-lucide="download"></i> Download Membiq</a>
+                        <a href="#features" class="btn-secondary btn-large">Explore Features <i data-lucide="arrow-right"></i></a>
+                    </div>
+
+                    <div class="hero-indicators">
+                        <div><i data-lucide="check-circle-2"></i> Easy Members</div>
+                        <div><i data-lucide="check-circle-2"></i> Smart Seats</div>
+                        <div><i data-lucide="check-circle-2"></i> Expiry Tracking</div>
+                        <div><i data-lucide="check-circle-2"></i> Simple Dashboard</div>
+                    </div>
+                </div>
+
+                <div class="hero-mockup">
+                    <div class="mockup-window">
+                        <div class="mockup-header">
+                            <div class="dots"><span></span><span></span><span></span></div>
+                            <span class="url">dashboard.membiq.app</span>
+                            <i data-lucide="shield-check" class="shield-icon"></i>
+                        </div>
+                        <div class="mockup-body">
+                            <img src="assets/cimage1.png" alt="Membiq Dashboard Overview" onerror="this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80'">
+                        </div>
+                        <div class="mockup-footer">
+                            <div class="owner-info">
+                                <!-- <div class="avatar-badge"></div> -->
+                                <div>
+                                    <!-- <h4>Currently</h4> -->
+                                    <!-- <p>Currently</p> -->
+                                </div>
+                            </div>
+                            <span class="status-pill">60+ Desks Live</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Bar -->
+        <section class="stats-section">
+            <div class="container stats-grid">
+                <div>
+                    <h3 data-counter data-target="100">0</h3>
+                    <p>% Paperless Records</p>
+                </div>
+                <div>
+                    <h3 data-counter data-target="24">0</h3>
+                    <p>*7 Operational Control</p>
+                </div>
+                <div>
+                    <h3 data-counter data-target="0">0</h3>
+                    <p> Hidden Artificial Registration Caps</p>
+                </div>
+                <div>
+                    <h3>100%</h3>
+                    <p>Multi-Tenant Isolation</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features-section">
+            <div class="container">
+                <div class="section-title">
+                    <span class="badge">Core Capabilities</span>
+                    <h2>Everything Your Library Needs. In One Place.</h2>
+                    <p>Powerful tools designed to make everyday library management easier, faster and more organized.</p>
+                </div>
+
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i data-lucide="users"></i></div>
+                        <h3>Smart Member Management</h3>
+                        <p>Register, organize, update and manage all library members from one centralized dashboard.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i data-lucide="user-plus"></i></div>
+                        <h3>Unlimited Student Registration</h3>
+                        <p>Manage your library members without an artificial registration cap imposed by the product.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i data-lucide="clock"></i></div>
+                        <h3>Membership Expiry Tracking</h3>
+                        <p>Automatically identify active, expiring and expired memberships to secure your revenue streams.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i data-lucide="layout-grid"></i></div>
+                        <h3>Seat Management</h3>
+                        <p>Manage available and occupied seats. Assign seats to members and easily check seat availability in real time.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i data-lucide="calendar-range"></i></div>
+                        <h3>Shift Management</h3>
+                        <p>Create and organize Morning, Afternoon, Evening or custom library shifts to optimize capacity.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i data-lucide="refresh-cw"></i></div>
+                        <h3>Membership Renewal</h3>
+                        <p>Renew memberships instantly and maintain a comprehensive renewal history log for every student.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i data-lucide="pie-chart"></i></div>
+                        <h3>Real-Time Dashboard</h3>
+                        <p>View important library statistics and membership information in one clean, unified place.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i data-lucide="search"></i></div>
+                        <h3>Easy Member Search</h3>
+                        <p>Quickly find members using their names, Member IDs or WhatsApp numbers without tedious filtering.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i data-lucide="smile"></i></div>
+                        <h3>Simple Interface</h3>
+                        <p>An intuitive interface designed for library owners, requiring zero technical knowledge to operate.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Membiq Section -->
+        <section id="why-membiq" class="why-section">
+            <div class="container">
+                <div class="section-title">
+                    <span class="badge">Product Value</span>
+                    <h2>Why Library Owners Choose Membiq</h2>
+                    <p>Less paperwork. Better organization. More control over your library.</p>
+                </div>
+
+                <div class="why-grid">
+                    <div class="why-card">
+                        <div class="why-icon"><i data-lucide="headphones"></i></div>
+                        <h4>Lifetime Support</h4>
+                        <p>Get ongoing product support throughout your use of Membiq, subject to the published support policy.</p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-icon"><i data-lucide="shield-check"></i></div>
+                        <h4>Affordable Solution</h4>
+                        <p>Powerful library management features without unnecessary complexity or expensive infrastructure.</p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-icon"><i data-lucide="zap"></i></div>
+                        <h4>Time Saving</h4>
+                        <p>Reduce repetitive manual work and manage important information from one streamlined dashboard.</p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-icon"><i data-lucide="database"></i></div>
+                        <h4>Organized Records</h4>
+                        <p>Keep member and membership information structured, secure, and instantly accessible.</p>
+                    </div>
+                </div>
+
+                <!-- Us vs Them Table -->
+                <div class="comparison-container">
+                    <h3>How Membiq Compares</h3>
+                    <div class="table-responsive">
+                        <table class="comparison-table">
+                            <thead>
+                                <tr>
+                                    <th>Features</th>
+                                    <th class="highlight-th">Membiq Software</th>
+                                    <th>Traditional Registers</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Seat & Shift Tracking</td>
+                                    <td class="highlight-td">Instant Real-Time Grid</td>
+                                    <td>Manual Counting / Error Prone</td>
+                                </tr>
+                                <tr>
+                                    <td>Expiry Reminders</td>
+                                    <td class="highlight-td">Automatic Status Alerts</td>
+                                    <td>Manual Date Checking</td>
+                                </tr>
+                                <tr>
+                                    <td>Data Accessibility</td>
+                                    <td class="highlight-td">Cloud & Android App</td>
+                                    <td>Physical Book Only</td>
+                                </tr>
+                                <tr>
+                                    <td>Student Search</td>
+                                    <td class="highlight-td">Instant Search by Name/ID</td>
+                                    <td>Flip Through Pages</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- App View Section -->
+        <section id="app-view" class="appview-section">
+            <div class="container">
+                <div class="section-title dark-title">
+                    <span class="badge">Visual Showcase</span>
+                    <h2>Explore Membiq in Action</h2>
+                    <p>Take a closer look at the Membiq experience across desktop and Android.</p>
+                </div>
+
+                <!-- A. Computer Version Carousel -->
+                <div class="carousel-wrapper">
+                    <div class="carousel-header">
+                        <h3><i data-lucide="monitor"></i> Computer Experience</h3>
+                        <p>Explore the Membiq dashboard and experience a clear, organized library management interface on larger screens.</p>
+                    </div>
+
+                    <div class="carousel-box" id="desktop-carousel">
+                        <div class="carousel-track">
+                            <div class="carousel-slide" onclick="openLightbox('assets/cimage1.png', 'Dashboard Overview')">
+                                <img src="assets/cimage1.png" alt="Dashboard Overview" onerror="this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80'">
+                            </div>
+                            <div class="carousel-slide" onclick="openLightbox('assets/cimage2.png', 'Member Management')">
+                                <img src="assets/cimage2.png" alt="Member Management" onerror="this.src='https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80'">
+                            </div>
+                            <div class="carousel-slide" onclick="openLightbox('assets/cimage3.png', 'Membership Tracking')">
+                                <img src="assets/cimage3.png" alt="Membership Tracking" onerror="this.src='https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80'">
+                            </div>
+                            <div class="carousel-slide" onclick="openLightbox('assets/cimage4.png', 'Seat Availability')">
+                                <img src="assets/cimage4.png" alt="Seat Availability" onerror="this.src='https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80'">
+                            </div>
+                            <div class="carousel-slide" onclick="openLightbox('assets/cimage5.png', 'Shift Management')">
+                                <img src="assets/cimage5.png" alt="Shift Management" onerror="this.src='https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1200&q=80'">
+                            </div>
+                        </div>
+
+                        <button class="carousel-btn prev-btn desktop-prev"><i data-lucide="chevron-left"></i></button>
+                        <button class="carousel-btn next-btn desktop-next"><i data-lucide="chevron-right"></i></button>
+
+                        <div class="carousel-overlay">
+                            <span class="desktop-counter">1/5</span>
+                            <span class="desktop-caption">Dashboard Overview</span>
+                        </div>
+                    </div>
+
+                    <div class="carousel-dots desktop-dots">
+                        <button class="dot active" data-index="0"></button>
+                        <button class="dot" data-index="1"></button>
+                        <button class="dot" data-index="2"></button>
+                        <button class="dot" data-index="3"></button>
+                        <button class="dot" data-index="4"></button>
+                    </div>
+                </div>
+
+                <!-- B. Android Version Carousel -->
+                <div class="carousel-wrapper mobile-carousel-wrapper">
+                    <div class="carousel-header">
+                        <h3><i data-lucide="smartphone"></i> Android Experience</h3>
+                        <p>Manage your library conveniently from your Android device.</p>
+                    </div>
+
+                    <div class="carousel-box mobile-box" id="android-carousel">
+                        <div class="carousel-track">
+                            <div class="carousel-slide" onclick="openLightbox('assets/aimage1.png', 'Mobile Dashboard')">
+                                <img src="assets/aimage1.png" alt="Mobile Dashboard" onerror="this.src='https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=600&q=80'">
+                            </div>
+                            <div class="carousel-slide" onclick="openLightbox('assets/aimage2.png', 'Member Registration')">
+                                <img src="assets/aimage2.png" alt="Member Registration" onerror="this.src='https://images.unsplash.com/photo-1555421689-491a97ff2040?auto=format&fit=crop&w=600&q=80'">
+                            </div>
+                            <div class="carousel-slide" onclick="openLightbox('assets/aimage3.png', 'Member Details')">
+                                <img src="assets/aimage3.png" alt="Member Details" onerror="this.src='https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80'">
+                            </div>
+                            <div class="carousel-slide" onclick="openLightbox('assets/aimage4.png', 'Seat Management')">
+                                <img src="assets/aimage4.png" alt="Seat Management" onerror="this.src='https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=80'">
+                            </div>
+                            <div class="carousel-slide" onclick="openLightbox('assets/aimage5.png', 'Membership Status')">
+                                <img src="assets/aimage5.png" alt="Membership Status" onerror="this.src='https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=600&q=80'">
+                            </div>
+                        </div>
+
+                        <button class="carousel-btn prev-btn android-prev"><i data-lucide="chevron-left"></i></button>
+                        <button class="carousel-btn next-btn android-next"><i data-lucide="chevron-right"></i></button>
+
+                        <div class="carousel-overlay">
+                            <span class="android-counter">1/5</span>
+                            <span class="android-caption">Mobile Dashboard</span>
+                        </div>
+                    </div>
+
+                    <div class="carousel-dots android-dots">
+                        <button class="dot active" data-index="0"></button>
+                        <button class="dot" data-index="1"></button>
+                        <button class="dot" data-index="2"></button>
+                        <button class="dot" data-index="3"></button>
+                        <button class="dot" data-index="4"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section class="steps-section">
+            <div class="container">
+                <div class="section-title">
+                    <span class="badge">Simple Process</span>
+                    <h2>Get Started in Three Simple Steps</h2>
+                    <p>Quick setup to take full control of your library operations.</p>
+                </div>
+
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <div class="step-number">01</div>
+                        <div class="step-icon"><i data-lucide="download"></i></div>
+                        <h3>Download Membiq</h3>
+                        <p>Download the application using the official download button for your Android device.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">02</div>
+                        <div class="step-icon"><i data-lucide="user-check"></i></div>
+                        <h3>Get Your Library Account</h3>
+                        <p>Contact the Membiq team via WhatsApp or phone to get your library owner account and access credentials.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">03</div>
+                        <div class="step-icon"><i data-lucide="activity"></i></div>
+                        <h3>Manage Your Library</h3>
+                        <p>Register members, manage seats, track membership expiry and organize your library efficiently.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download Section -->
+        <section id="download" class="download-section">
+            <div class="container download-box">
+                <div class="download-icon-box"><i data-lucide="smartphone"></i></div>
+                <h2>Your Library. Under Control. Anywhere.</h2>
+                <p>Start managing your library smarter with Membiq. Download the Android application and simplify your daily operations.</p>
+                
+                <a href="downloads/membiq.apk" download class="btn-white"><i data-lucide="download"></i> Download for Android</a>
+                
+                <p class="download-note">Download the Membiq APK and install it on your Android device. You may need to allow installation from this source in your Android settings.</p>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq-section">
+            <div class="container-narrow">
+                <div class="section-title">
+                    <span class="badge">Got Questions?</span>
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Everything you need to know about Membiq Library Management Software.</p>
+                </div>
+
+                <div class="faq-accordion" id="faq-accordion">
+                    <div class="faq-item">
+                        <button class="faq-btn"><span>1. What is Membiq?</span> <i data-lucide="chevron-down"></i></button>
+                        <div class="faq-content"><p>Membiq is a comprehensive library and study room management software designed specifically to help private library owners digitize member records, track seat allocation, monitor membership expiries, and organize shifts effortlessly.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-btn"><span>2. Who can use Membiq?</span> <i data-lucide="chevron-down"></i></button>
+                        <div class="faq-content"><p>Membiq is built for private library owners, reading room operators, and study centre managers who want to replace manual paper registers with an automated, efficient digital platform.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-btn"><span>3. How can I download Membiq?</span> <i data-lucide="chevron-down"></i></button>
+                        <div class="faq-content"><p>You can directly download the official Android APK file from the download section on this website by clicking the "Download for Android" button.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-btn"><span>4. Is Membiq available for Android?</span> <i data-lucide="chevron-down"></i></button>
+                        <div class="faq-content"><p>Yes! Membiq is optimized for Android devices, allowing you to manage your library conveniently on the go.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-btn"><span>5. Can I register unlimited members?</span> <i data-lucide="chevron-down"></i></button>
+                        <div class="faq-content"><p>Yes, Membiq allows you to manage your library members without artificial registration caps imposed by the product.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-btn"><span>6. Can I manage available and occupied seats?</span> <i data-lucide="chevron-down"></i></button>
+                        <div class="faq-content"><p>Absolutely. Membiq features a dedicated seat management grid where you can assign seats to members and instantly check availability.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-btn"><span>7. Does Membiq support different library shifts?</span> <i data-lucide="chevron-down"></i></button>
+                        <div class="faq-content"><p>Yes, you can create and organize Morning, Afternoon, Evening, or custom library shifts easily within the software.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-btn"><span>8. Can I track expired memberships?</span> <i data-lucide="chevron-down"></i></button>
+                        <div class="faq-content"><p>Yes, Membiq automatically identifies active, expiring, and expired memberships so you can follow up on renewals promptly.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-btn"><span>9. Can I renew a member's subscription?</span> <i data-lucide="chevron-down"></i></button>
+                        <div class="faq-content"><p>Yes, you can renew subscriptions directly in the app and maintain a complete renewal history for every member.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-btn"><span>10. How can I get a Membiq account?</span> <i data-lucide="chevron-down"></i></button>
+                        <div class="faq-content"><p>You can get your library owner account by contacting our team via WhatsApp, phone, or email. We will set up your dedicated credentials.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-btn"><span>11. What if I forget my password?</span> <i data-lucide="chevron-down"></i></button>
+                        <div class="faq-content"><p>If you encounter any login or password issues, you can reach out directly to customer support via WhatsApp or email for instant assistance.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-btn"><span>12. How can I contact customer support?</span> <i data-lucide="chevron-down"></i></button>
+                        <div class="faq-content"><p>You can reach our support team anytime via WhatsApp at +91-9939964408, by phone, or by emailing addrexsolution@gmail.com.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-title">
+                    <span class="badge">Get In Touch</span>
+                    <h2>Let's Simplify Your Library Management.</h2>
+                    <p>Have questions or want to start using Membiq? Get in touch with our team.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <a href="tel:+919939964408" class="contact-card">
+                        <div class="contact-icon"><i data-lucide="phone"></i></div>
+                        <h3>Phone Support</h3>
+                        <p class="highlight-text">+91-9939964408</p>
+                    </a>
+                    <a href="https://wa.me/919939964408?text=Hello%20Membiq%20Team!%20I%20am%20interested%20in%20using%20Membiq%20Library%20Management%20Software.%20Please%20share%20more%20information." target="_blank" class="contact-card whatsapp-card">
+                        <div class="contact-icon whatsapp-icon"><i data-lucide="message-circle"></i></div>
+                        <h3>WhatsApp Chat</h3>
+                        <p class="whatsapp-text">+91-9939964408</p>
+                    </a>
+                    <a href="mailto:addrexsolution@gmail.com" class="contact-card">
+                        <div class="contact-icon"><i data-lucide="mail"></i></div>
+                        <h3>Email Address</h3>
+                        <p class="highlight-text">addrexsolution@gmail.com</p>
+                    </a>
+                </div>
+
+                <div class="whatsapp-banner">
+                    <div>
+                        <h3>Ready to transform your library?</h3>
+                        <p>Chat with us instantly on WhatsApp and get your account set up today.</p>
+                    </div>
+                    <a href="https://wa.me/919939964408?text=Hello%20Membiq%20Team!%20I%20am%20interested%20in%20using%20Membiq%20Library%20Management%20Software.%20Please%20share%20more%20information." target="_blank" class="btn-whatsapp">
+                        <i data-lucide="message-circle"></i> Chat With Us on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <!-- <img src="assets/logo.png" alt="Membiq Logo" class="footer-logo"> -->
+                <p>Smart Library Management. Simplified.</p>
+                <p><b>Operational Management :</b></p>
+                <p>Adyar, Chennai, Tamil Nadu-600036</p>
+                <p> India</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#why-membiq">Why Membiq</a></li>
+                    <li><a href="#app-view">App View</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Product</h4>
+                <ul>
+                    <li><a href="#download">Download App</a></li>
+                    <li><a href="#app-view">Computer Experience</a></li>
+                    <li><a href="#app-view">Android Experience</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li>Phone: +91-9939964408</li>
+                    <li>Email: addrexsolution@gmail.com</li>
+                    <li>WhatsApp: +91-9939964408</li>
+                </ul>
+            </div>
+        </div>
+        <!-- <div class="container footer-bottom">
+            <p>&copy; 2026 Membiq. All rights reserved.</p>
+            <p>Powered by AddreX Solution</p>
+        </div> -->
+<!-- external footer for addrex solution  -->
+        <div class="footer-bottom">
+    <p>© 2026 LNMU Resources. All rights reserved.</p>
+    
+    <a href="https://alokkumariitm.github.io/addrex-solution/index.html" target="_blank" class="addrex-credit-box">
+        <span class="code-icon">&lt;/&gt;</span>
+        <span class="credit-text">Built & powered by <strong class="brand-name">AddreX Solution</strong></span>
+        <!-- Animated Click Hand Icon -->
+        <span class="click-hand">👈</span>
+    </a>
+</div>
+
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919939964408?text=Hello%20Membiq%20Team%2C%20I%20want%20to%20know%20more%20about%20your%20software." target="_blank" class="floating-whatsapp" aria-label="Chat with Membiq">
+        <i data-lucide="message-circle"></i>
+        <span class="tooltip">Chat with Membiq</span>
+    </a>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox-modal">
+        <button onclick="closeLightbox()" class="lightbox-close"><i data-lucide="x"></i></button>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Enlarged View">
+            <p id="lightbox-caption"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
